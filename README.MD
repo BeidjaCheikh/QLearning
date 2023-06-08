@@ -6,6 +6,9 @@
 <h1>Master SDIA</h1>
 <h2>sequenciel</h2>
 <img src="capture/img1.png"><br><br>
+<img src="capture/img2.png"><br><br>
+<img src="capture/img3.png"><br><br>
+
 
 
 
