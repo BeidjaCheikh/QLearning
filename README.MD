@@ -9,7 +9,20 @@
 <img src="capture/img2.png"><br><br>
 <img src="capture/img3.png"><br><br>
 Test <br><br>
-<img src="capture/2023-06-08 02-00-021 short.gif"><br><br>
+<img src="capture/img5.png"><br><br>
+
+
+<h2>SMA</h2>
+Main container <br>
+<img src="capture/img4.png"><br><br>
+Master Agent <br>
+<img src="capture/img6.png"><br><br>
+QlearningAgent <br>
+<img src="capture/img7.png"><br><br>
+
+
+
+
 
 
 
