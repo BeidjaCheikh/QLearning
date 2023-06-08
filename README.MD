@@ -9,7 +9,7 @@
 <img src="capture/img2.png"><br><br>
 <img src="capture/img3.png"><br><br>
 Test <br><br>
-<img src="capture/2023-06-08%2002-00-021%20short.gif"><br><br>
+<img src="capture/2023-06-08 02-00-021 short.gif"><br><br>
 
 
 
