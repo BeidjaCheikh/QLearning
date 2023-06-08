@@ -9,6 +9,7 @@
 <img src="capture/img2.png"><br><br>
 <img src="capture/img3.png"><br><br>
 Test <br><br>
+<<<<<<< HEAD
 <img src="capture/img5.png"><br><br>
 
 
@@ -23,6 +24,10 @@ QlearningAgent <br>
 
 
 
+=======
+<img src="capture/2023-06-08 02-00-021 short.gif"><br><br>
+https://github.com/BeidjaCheikh/QLearning/assets/131605799/8243a3cb-6638-49da-ab28-561558b11731
+>>>>>>> ae55ded3e3f8920b5308018fae37ef3819441eda
 
 
 
