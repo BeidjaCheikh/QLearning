@@ -10,6 +10,7 @@
 <img src="capture/img3.png"><br><br>
 Test <br><br>
 <img src="capture/2023-06-08 02-00-021 short.gif"><br><br>
+https://github.com/BeidjaCheikh/QLearning/assets/131605799/8243a3cb-6638-49da-ab28-561558b11731
 
 
 
