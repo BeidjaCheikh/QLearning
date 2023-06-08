@@ -8,23 +8,23 @@
 <img src="capture/img1.png"><br><br>
 <img src="capture/img2.png"><br><br>
 <img src="capture/img3.png"><br><br>
-Test <br><br>
+### Test <br><br>
 <<<<<<< HEAD
 <img src="capture/img5.png"><br><br>
 
 
 <h2>SMA</h2><br>
-Main container <br><br>
+## Main container <br><br>
 <img src="capture/img4.png"><br><br>
-Master Agent <br><br>
+## Master Agent <br><br>
 <img src="capture/img6.png"><br><br>
-QlearningAgent <br><br>
+## QlearningAgent <br><br>
 <img src="capture/img7.png"><br><br>
-QlearningCheikh <br>
+## QlearningCheikh <br>
 <img src="capture/img8.png"><br><br>
-SimpleContainer <br><br>
+## SimpleContainer <br><br>
 <img src="capture/img9.png"><br><br>
-Test <br><br>
+### Test <br><br>
 <img src="capture/img10.png"><br><br>
 <img src="capture/img11.png"><br><br>
 
