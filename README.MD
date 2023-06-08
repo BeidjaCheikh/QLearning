@@ -11,6 +11,7 @@
 ### Test <br><br>
 <<<<<<< HEAD
 <img src="capture/img5.png"><br><br>
+<img src="capture/ad_gif.gif"><br><br>
 
 
 <h2>SMA</h2><br>
