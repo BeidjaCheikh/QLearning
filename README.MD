@@ -17,7 +17,7 @@
 
 
 <h2>SMA</h2><br>
-## Main container <br><br>
+## **Main container** <br><br>
 <img src="capture/img4.png"><br><br>
 ## Master Agent <br><br>
 <img src="capture/img6.png"><br><br>
