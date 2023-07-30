@@ -1,5 +1,4 @@
 package ma.enset.sdia.sequantiel;
-
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.geometry.HPos;
@@ -38,7 +37,7 @@ public class QlearningFX extends Application {
         initializeQLearning();
         runQLearningAndVisualize();
         primaryStage.setTitle("QLearning");
-        primaryStage.setScene(new Scene(gridPane, 400, 400));
+        primaryStage.setScene(new Scene(gridPane, 600, 600));
         for (int i = 0; i < GRID_SIZE; i++) {
             for (int j = 0; j < GRID_SIZE; j++) {
                 Rectangle rectangle = (Rectangle) getNodeFromGridPane(gridPane, j, i);
@@ -64,9 +63,6 @@ public class QlearningFX extends Application {
             for (int j = 0; j < GRID_SIZE; j++) {
                 Rectangle rectangle = new Rectangle(35, 35);
                 rectangle.setFill(Color.WHITE);
-                rectangle.setStrokeWidth(2);
-                rectangle.setArcWidth(50);
-                rectangle.setArcHeight(50);
                 rectangle.setStroke(Color.BLACK);
                 GridPane.setHalignment(rectangle, HPos.CENTER);
                 gridPane.add(rectangle, j, i);
@@ -80,10 +76,10 @@ public class QlearningFX extends Application {
 
     private void initializeQLearning() {
         actions = new int[][]{
-                {0, -1}, // gauche
-                {0, 1},  // droite
-                {1, 0},  // bas
-                {-1, 0}  // haut
+                {0, -1}, // left
+                {0, 1},  // write
+                {1, 0},  // down
+                {-1, 0}  // up
         };
 
         grid = new int[][]{
@@ -112,7 +108,7 @@ public class QlearningFX extends Application {
                 stateJ = nextStateJ;
 
                 try {
-                    Thread.sleep(1000); // Pause between robot movements (milliseconds)
+                    Thread.sleep(1000);   // Pause between robot movements (milliseconds)
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -134,6 +130,9 @@ public class QlearningFX extends Application {
                 nextState = executeAction(action);
                 action1 = chooseAction(0);
                 qTable[currentState][action] = qTable[currentState][action] + ALPHA * (grid[stateI][stateJ] + GAMMA * qTable[nextState][action1] - qTable[currentState][action]);
+                // Afficher les détails de chaque itération
+                System.out.println("Epoch: " + it + " Current State: " + currentState + " Action: " + action + " Next State: " + nextState);
+
             }
             it++;
         }
@@ -201,8 +200,11 @@ public class QlearningFX extends Application {
 
         if (grid[nextI][nextJ] == 1) {
             nextRect.setFill(Color.GREEN);
+
         } else {
-            nextRect.setFill(Color.BLUE);
+            nextRect.setFill(Color.GRAY);
+
+
         }
     }
 
